@@ -107,3 +107,38 @@ footer {
     /* DEBUG */
     background-color: #000f1f;
 }
+
+    /* Navigation Section Rules */
+    #bot-nav {
+        width: 80%;
+        height:90%;
+        display: flex;
+        /* DEBUG */
+        border: 1px solid white;
+        margin: auto;
+    }
+
+    #credits {
+        width: 25%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        /* DEBUG */
+        border: 1px solid white;
+    }
+
+        /* Credits Section Rules */
+        #credits div {
+            height: calc(100% / 3);
+            /* DEBUG */
+            border: 1px solid white;
+        }
+
+    #bot-nav nav {
+        width: 20%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        /* DEBUG */
+        border: 1px solid white;
+    }
